@@ -17,7 +17,7 @@
     </scm>
 
     <properties>
-        <target.platform>neon</target.platform>
+        <target.platform>photon</target.platform>
 
         <tycho-version>0.24.0</tycho-version>
         <orbit.version>R20160221192158</orbit.version>
@@ -40,6 +40,7 @@
         <module>com.basistech.m2e.code.quality.pmd</module>
         <module>com.basistech.m2e.code.quality.pmd.feature</module>
         <module>com.basistech.m2e.code.quality.site</module>
+        <module>photon</module>
         <module>oxygen</module>
         <module>neon</module>
         <module>mars</module>
@@ -56,9 +57,9 @@
             <url>http://download.eclipse.org/technology/m2e/releases</url>
         </repository>
         <repository>
-            <id>neon</id>
+            <id>photon</id>
             <layout>p2</layout>
-            <url>http://download.eclipse.org/releases/neon</url>
+            <url>http://download.eclipse.org/releases/photon</url>
         </repository>
         <repository>
             <id>cs</id>
